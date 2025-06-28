@@ -1,0 +1,76 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "count-array-elements;count-array-elements",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Count array elements",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "array is empty",
+            "match": {
+              "location": "features/support/arrayLength.steps.ts:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 908416
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 5,
+            "name": "the length of array should be 0",
+            "match": {
+              "location": "features/support/arrayLength.steps.ts:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 439875
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "the array is loaded with element 2,3,4",
+            "match": {
+              "location": "features/support/arrayLength.steps.ts:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 79833
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "the length of array should be 3",
+            "match": {
+              "location": "features/support/arrayLength.steps.ts:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 162666
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "count-array-elements",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Count array elements",
+    "tags": [],
+    "uri": "features/arrayLength.feature"
+  }
+]

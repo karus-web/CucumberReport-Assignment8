@@ -1,0 +1,31 @@
+[
+  {
+    "uri": "features/sample.feature",
+    "id": "sample-feature",
+    "keyword": "Feature",
+    "name": "Sample Feature",
+    "description": "",
+    "line": 1,
+    "elements": [
+      {
+        "id": "sample-feature;sample-scenario",
+        "keyword": "Scenario",
+        "name": "Sample Scenario",
+        "description": "",
+        "line": 3,
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Given ",
+            "name": "a precondition",
+            "line": 4,
+            "result": {
+              "status": "passed",
+              "duration": 1
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
